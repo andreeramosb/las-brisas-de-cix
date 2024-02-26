@@ -1,0 +1,58 @@
+.banner-container {
+    background-color: #FEA501;
+    display: flex;
+    align-items: center;
+    padding-top: 3em;
+    padding-bottom: 1.5em;
+}
+
+.banner-container h2 {
+    font-family: "Protest Strike", sans-serif;
+    color: #ffffff;
+}
+
+.banner-container .icon-container {
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    margin-right: 10px;
+}
+
+.icon-container img {
+    width: 30px; /* Tamaño máximo de la imagen */
+    height: 30px;
+}
+
+.banner-container .text-container h3 {
+    color: #ffffff;
+    font-size: 1.3rem;
+    margin-bottom: 10px; 
+    font-family: "Protest Strike", sans-serif;
+}
+
+.banner-container .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-bottom: 1.5em;
+}
+
+.banner-container .img-banner {
+    width: 100%; /* Ajustar el ancho al 100% */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+.col-banner {
+    display: flex;
+    align-items: flex-end;
+}
+
+.banner-container-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

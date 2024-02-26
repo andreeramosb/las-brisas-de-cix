@@ -1,0 +1,35 @@
+.video-container{
+    background-color: #FFA500;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.react-player{
+    border-radius: 5px!important;
+}
+
+.container-description-details h2{
+    font-family: "Protest Strike", sans-serif;
+}
+
+.container-description-details p{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal!important;
+}
+
+.video-container{
+    color: #FFA500;
+}
+
+.info-palce-important{
+    font-family: "Protest Strike", sans-serif;
+}
+
+.important-checks-place{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.icon-info{
+    color: #FFA500;
+    margin-right: 5px;
+}

@@ -1,0 +1,11 @@
+.container-header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 57vh;
+    background-image: url('../../assets/img/centro-chiclayo-peru.jpg');
+    background-repeat: no-repeat;
+    background-size: cover ; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center;
+}
+

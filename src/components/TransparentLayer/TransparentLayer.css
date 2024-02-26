@@ -1,0 +1,9 @@
+.transparent-layer-container{
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5); 
+    width: 100vw;
+    top: 0;
+    height: 100vh
+}

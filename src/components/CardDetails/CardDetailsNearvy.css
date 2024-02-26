@@ -1,0 +1,18 @@
+.cards-container-dtails{
+    display: flex!important;
+    justify-content: space-between!important;
+}
+
+.cards-container-details .col, .cards-container-details .col-lg-4, .cards-container-details .col-md-6, .cards-container-details .col-sm-12{
+    padding: 0!important;
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .cards-container-details .col-xl-3 {
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+    }
+  }
+  

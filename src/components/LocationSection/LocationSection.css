@@ -1,0 +1,40 @@
+.locationSection-container {
+    background-image: url("../../assets/img/cix_house.jpeg");
+    background-repeat: no-repeat;
+    height: 463px;
+    width: 100%;
+    padding-top: 50px;
+    background-position: center center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.locationSection-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.locationSection-content h2, .locationSection-content p{
+    text-shadow: 2px 2px 4px black; 
+    text-align: center;
+}
+
+.locationSection-content h2 {
+    color: #ffffff;
+    font-family: "Protest Strike", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Estilo específico para dispositivos de escritorio */
+@media only screen and (min-width: 768px) {
+    .locationSection-container {
+        background-attachment: fixed; /* Se fija la posición */
+    }
+}
+
+

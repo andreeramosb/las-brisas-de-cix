@@ -1,0 +1,173 @@
+.navbar {
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.brand {
+    font-size: 1.5rem;
+    margin-right: auto;
+    font-family: 'Protest Guerrilla', sans-serif;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.6s ease;
+}
+
+.nav-links li a:hover{
+    color: #FFA500!important;
+}
+
+.menu-toggle {
+    cursor: pointer;
+    display: none;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+    transition: transform 0.4s, opacity 0.4s;
+}
+
+.open .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.open .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.open .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.brand-responsive {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 8px !important;
+    }
+
+    .a-noscrolled {
+        color: #000000!important;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80%;
+        background-color: #ffffff;
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100vh;
+        z-index: 3;
+    }
+
+    .open .nav-links {
+        opacity: 1;
+        transform: translateX(0);
+        display: flex;
+    }
+
+    .nav-links li {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .brand-responsive {
+        display: block;
+    }
+}
+
+@media (min-width: 769px) {
+    .navbar {
+        padding: 15px 10px;
+    }
+
+    .brand {
+        font-size: 2rem;
+    }
+
+    .nav-links li a {
+        font-size: 1.1rem;
+    }
+
+    .nav-links {
+        display: flex !important;
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .nav-links li a {
+        font-size: 1rem;
+    }
+
+    .brand {
+        font-size: 1.5rem;
+    }
+}
+
+.scrolled {
+    background-color: white;
+    color: #000;
+    position: fixed!important;
+}
+
+.scrolled {
+    background-color: #ffffff;
+    color: #000000;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.icon-scrolled {
+    color: #FFA500;
+}
+
+.a-scrolled {
+    color: #000000!important;
+}
+
+.brand-noscroll {
+    color: #000;
+}
+
+.menu-res-scrolled {
+    color: #000000!important;
+}

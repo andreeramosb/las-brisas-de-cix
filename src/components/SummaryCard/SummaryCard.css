@@ -1,0 +1,53 @@
+.summary-card-container {
+    overflow-x: hidden;
+    /* Esto evita el desplazamiento horizontal */
+    overflow-y: hidden;
+}
+
+.header-summary-card {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header-summary-card h2 {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn-container-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-container-arrow span:hover {
+    cursor: pointer;
+}
+
+.ver-mas-btn {
+    background-color: #FEA501;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ver-mas-btn:hover {
+    background-color: #FFD166;
+}
+
+
+@media screen and (max-width: 756px) {
+    .summary-card-container .slick-slider {
+        max-width: 100vw;
+        /* Establece el ancho máximo igual al ancho de la pantalla */
+        padding-right: 0;
+        /* Elimina cualquier relleno adicional que pueda causar un desplazamiento horizontal */
+    }
+}
