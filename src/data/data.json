@@ -400,6 +400,22 @@
         },
         {
             "id": 216,
+            "title": "Pirámides De Túcume Y Museo De Sitio",
+            "description": "Durante siglos, un valioso tesoro arqueológico ha permanecido al norte de Chiclayo. Su significado y grandeza eran tales que el reino Chimú lo reclamó para sí, antes de que fuera conquistado por el imperio Inca.<br>En el complejo arqueológico de Túcume, se encuentran varias huacas o pirámides truncas que rodean una formación natural, el cerro La Raya. Este lugar fue seleccionado por Nylamp, una deidad que emergió del mar y guió a los Sicán en la construcción de este sitio. El cerro era un punto de adoración, ceremonia y espiritualidad, al ser un prominente montículo en medio de la llanura.<br>Túcume es reconocido como uno de los mayores centros arqueológicos de América. El museo de Sitio exhibe numerosos artefactos recuperados en las excavaciones, destacando las joyas encontradas en la tumba del Señor de Túcume. Además, se presentan exhibiciones sobre textiles, la gastronomía de la época y las creencias de los miembros de la cultura Sicán o Lambayeque.",  
+            "location": "https://maps.app.goo.gl/mRGcV2ebvoeYw1hd7?g_st=ic",
+            "image": "https://blog.redbus.pe/wp-content/uploads/2017/10/Pir%C3%A1mides-de-T%C3%BAcume-chill-1280x720.jpg",
+            "video": "https://www.youtube.com/watch?v=o0obia1RSV4",
+            "district": "Túcume",
+            "province": "Lambayeque",
+            "partOfDay": 4,
+            "distance": 34,
+            "carOrWalk": 2,
+            "time": "45 min",
+            "type": "Lugares Turísticos",
+            "typeCard": 2
+        },
+        {
+            "id": 217,
             "title": "Bosque de Pómac",
             "description": "El Santuario Histórico Bosque de Pómac, se erige como un tesoro natural y cultural. Dentro de sus límites, resguarda una notable variedad de especies autóctonas del bosque seco, así como también 36 imponentes pirámides pertenecientes a la Cultura Sicán. En junio de 2001, este asombroso santuario fue elevado a la categoría de Santuario Histórico, previamente conocido como Zona Reservada de Batán Grande.<br><br> Entre las magníficas estructuras, destaca la Huaca El Oro, donde en 1995 se hallaron los emblemáticos tesoros del Señor de Sicán y la icónica máscara de oro, símbolos supremos del antiguo reino Sicán. Atravesado por el río La Leche, rebautizado como Lerkanlaech, este santuario se encuentra en la parte central del valle del río, donde aún perduran poblaciones de origen muchik que conservan vívidamente antiguas tradiciones ancestrales.",
             "location": "https://maps.app.goo.gl/1hHYFC7CWt7wYZ9t9?g_st=ic",
@@ -415,7 +431,7 @@
             "typeCard": 1
         },
         {
-            "id": 217,
+            "id": 218,
             "title": "Museo Nacional Sicán",
             "description": "El Museo Nacional Sicán, emblema de Ferreñafe, es uno de los más significativos del país y cuenta con salas temáticas dedicadas a la cultura Sicán o Lambayeque, gracias al apoyo del gobierno japonés en su construcción.<br><br> Entre sus destacadas exhibiciones se encuentra una máscara de oro pintada de rojo con esmeraldas sobre ámbar, reflejo del arte orfebre sicán y testimonio de su dedicación artística.<br><br> El museo ofrece una experiencia informativa y educativa gracias a su excelente señalización y paneles explicativos.<br><br> Además de la máscara, el museo alberga una amplia variedad de piezas, incluyendo una maqueta de la Huaca del Oro, cerámicas, textiles y artefactos descubiertos en la tumba del Señor de Sicán, como su impresionante máscara de murciélago de oro puro con una expresión de asombro.",
             "location": "https://maps.app.goo.gl/N2fgwYtEstLxAKXM7?g_st=ic",
@@ -431,7 +447,7 @@
             "typeCard": 1
         },
         {
-            "id": 218,
+            "id": 219,
             "title": "C. A. Huaca Rajada",
             "description": "Huaca Rajada, más conocida como Sipán, constituye un fascinante enclave arqueológico situado en el norte de Perú, donde convergen las influencias de las antiguas culturas moche y Lambayeque.<br><br>Este complejo, compuesto por una serie de pirámides o huacas, es reconocido mundialmente por albergar tumbas reales de gran importancia histórica y arqueológica. Entre estas, destaca la célebre tumba del Señor de Sipán, cuyo descubrimiento a cargo de Walter Alva y su esposa Susana Meneses ha marcado un hito en la investigación y comprensión de las antiguas civilizaciones peruanas.",
             "location": "https://maps.app.goo.gl/RwpDa8Ntnyb9nWoV6?g_st=ic",
@@ -447,7 +463,7 @@
             "typeCard": 1
         },
         {
-            "id": 219,
+            "id": 220,
             "title": "Refugio Laquipampa",
             "description": "El Santuario Natural Laquipampa, con una extensión de 8,328.64 hectáreas, fue oficialmente establecido el 07 de julio de 2006 con el propósito primordial de preservar y fomentar la investigación científica y tecnológica sobre la pava aliblanca, así como otras especies de flora y fauna silvestre.<br><br>Esta reserva también alberga una diversidad asombrosa de la fauna nacional, que incluye al imponente oso de anteojos, el majestuoso cóndor andino, el elegante buitre real, el ágil sajino, el curioso oso hormiguero, así como al colorido loro esmeralda y el llamativo loro de cabeza roja.<br><br>En lo que respecta a la flora, se pueden encontrar una gran variedad de especies propias del bosque seco, como el robusto hualtaco, el espléndido guayacán y el aromático palo santo.",
             "location": "https://maps.app.goo.gl/uHoT1Kqz5x6XZEhB8?g_st=ic",
@@ -463,7 +479,7 @@
             "typeCard": 1
         },
         {
-            "id": 220,
+            "id": 221,
             "title": "Las Ruinas de Zaña",
             "description": "Zaña, un nombre con resonancia histórica en el norte del Perú, es reconocido por la Unesco como un tesoro vivo de la historia y la esclavitud, constituyendo un patrimonio nacional y un símbolo de la memoria colectiva. Hoy en día, sus antiguas estructuras atraen a turistas a la región de Lambayeque. <br><br> Este pueblo continúa vibrante y habitado gracias a la determinación de sus residentes. Aunque muchos escaparon, otros optaron por arraigarse a la tierra y preservar su legado. Entre las ruinas más notables se encuentran la iglesia Matriz, el convento de San Francisco, el puente colgante, así como la iglesia y el convento de San Agustín, entre otras construcciones. Zaña representa uno de los epicentros culturales de la comunidad afroperuana. <br><br> La grandeza de sus edificaciones, con sus imponentes muros de adobe y decoraciones detalladas en arcos y cornisas, ilustra el esplendor que Zaña alcanzó durante la era virreinal.",
             "location": "https://maps.app.goo.gl/9riXSuqdFVEmcQ776?g_st=ic",
@@ -479,7 +495,7 @@
             "typeCard": 1
         },
         {
-            "id": 221,
+            "id": 222,
             "title": "Jagueyes de Mayascón",
             "description": "En el norte de Chiclayo, a menos de dos horas de distancia, se encuentran impresionantes piscinas de aguas turquesas y cristalinas, cuyos tonos cambian gradualmente a medida que la profundidad aumenta. Situadas bajo un cielo siempre despejado y un sol radiante, estas piscinas naturales han adquirido gran importancia como destino turístico en Lambayeque.<br><br>Son piscinas consecutivas que reciben el agua de cascadas naturales que fluyen desde las rocas, ofreciendo así una experiencia de baño serena, transparente y revitalizante en un entorno natural único.",
             "location": "https://maps.app.goo.gl/vjLBtmzwKGkbGy6C9?g_st=ic",
@@ -495,7 +511,7 @@
             "typeCard": 1
         },
         {
-            "id": 222,
+            "id": 223,
             "title": "Reserva Ecológica Chaparri",
             "description": "Chaparrí, la primera Área de Conservación Privada reconocida en el Perú, es un ejemplo destacado de la gestión comunitaria de los recursos naturales. Su enfoque principal es la preservación y restauración de especies en peligro de extinción y la protección de los bosques secos, hogar de una amplia diversidad de vida silvestre, incluyendo llamas, guanacos, pava aliblanca, osos de anteojos y venados.<br><br> Además, la reserva alberga una variedad impresionante de aves, entre las que se encuentran el pitajo de Tumbes, la bandurria y el loro esmeralda, entre otros. El nombre de la reserva proviene del majestuoso Cerro Chaparrí, considerado sagrado por la Cultura Mochica y aún venerado por chamanes peruanos.<br><br> En su interior, se pueden recorrer diversas rutas, como la de las pavas, la huachuma y la del oso de anteojos, siendo la primera accesible solo para estudiosos interesados en la reproducción de esta especie.",
             "location": "https://maps.app.goo.gl/1KwVdeXBUAepC6Xq9?g_st=ic",
@@ -511,7 +527,7 @@
             "typeCard": 1
         },
         {
-            "id": 223,
+            "id": 224,
             "title": "Complejo arqueológico Chotuna - Chornancap",
             "description": "En el distrito de Lambayeque, al norte del Perú, se encuentra el complejo arqueológico de Chotuna-Chornancap. Este sitio arqueológico, compuesto por pirámides truncas y recintos antiguos, es un testimonio del esplendor de la cultura lambayeque, que floreció entre los años 700 y 1300 d.C. Destacan dos pirámides, Chotuna y Chornancap, la primera asociada con la leyenda de Naylamp. A lo largo de los siglos, el complejo ha sido testigo de la sucesiva ocupación por parte de los chimús e incas. En 2011, el descubrimiento de la tumba de la sacerdotisa de Chornancap dentro de una de sus estructuras añadió un nuevo misterio a este fascinante sitio arqueológico.",
             "location": "https://maps.app.goo.gl/y3sSjopCAuuXU1Uy5?g_st=ic",
@@ -527,7 +543,7 @@
             "typeCard": 1
         },
         {
-            "id": 224,
+            "id": 225,
             "title": "Complejo arqueológico Ventarrón",
             "description": "Una característica destacada en todo el territorio del Perú es la presencia de sitios arqueológicos ubicados dentro o cerca de las ciudades. Entre estos, los murales hallados en el templo de Ventarrón son notables por su antigüedad, datando entre 1300 y 2000 años, lo que los convierte en algunos de los más antiguos de América. La estructura del templo se construyó utilizando adobes hechos con sedimentos fluviales, lo que representa una innovación en la técnica constructiva. En su interior, se encontró una escalera que conduce a un altar de fuego, siendo poco común encontrar escaleras en construcciones preincaicas. La huaca también alberga murales policromados sobre frisos, de gran tamaño y bien conservados. <br><br> Además de explorar el sitio arqueológico, los visitantes pueden ascender al cerro Ventarrón y contemplar la laguna de Boro, fuente de agua para el acueducto de Chiclayo.",
             "location": "https://maps.app.goo.gl/74fi3TkqahYveJZVA?g_st=ic",
@@ -543,7 +559,7 @@
             "typeCard": 1
         },
         {
-            "id": 225,
+            "id": 226,
             "title": "Catarata El Espinal",
             "description": "En el corazón del bosque seco emerge una impresionante cascada entre las rocas, conocida como el Velo de la Novia o Espinal de Oyotún. El agua, gélida y refrescante, invita a los visitantes a escalar las rocas y caminar detrás del velo acuático. Es un lugar perfecto para nadar, hacer clavados y disfrutar de un momento placentero junto al pozo. Su acceso es sencillo y se puede llevar comida para compartir durante la visita. <br><br> Además, antes de regresar a Chiclayo, se puede explorar el pintoresco pueblo de El Espinal. Esta catarata se encuentra en las estribaciones de la sierra de Lambayeque.",
             "location": "https://maps.app.goo.gl/ed8NER9vRb4GjW7i6?g_st=ic",
@@ -559,7 +575,7 @@
             "typeCard": 1
         },
         {
-            "id": 226,
+            "id": 227,
             "title": "Universidad Nacional Pedro Ruiz Gallo",
             "description": "Ubicado en la calle Juan XXIII 391 - Lambayeque.",
             "location": "https://maps.app.goo.gl/5cYNtmU5kAc84ACi9?g_st=ic",
@@ -575,7 +591,7 @@
             "typeCard": 2
         },
         {
-            "id": 227,
+            "id": 228,
             "title": "Universidad Católica Santo Toribio de Mogrovejo",
             "description": "Ubicado en la avenida San Josemaría Escriva de Balaguer 855 - Chiclayo.",
             "location": "https://maps.app.goo.gl/H389D7s3mCDj2dvs6?g_st=ic",
@@ -591,7 +607,7 @@
             "typeCard": 2
         },
         {
-            "id": 228,
+            "id": 229,
             "title": "Universidad Cesar Vallejo",
             "description": "Ubicado en el Km. 3.5 Carretera Pimentel  - Chiclayo.",
             "location": "https://maps.app.goo.gl/HiziwZ6bk926tD697?g_st=ic",
@@ -607,7 +623,7 @@
             "typeCard": 2
         },
         {
-            "id": 229,
+            "id": 230,
             "title": "Universidad Señor de Sipán",
             "description": "Ubicado en el Km. 5 Carretera Pimentel - Chiclayo.",
             "location": "https://maps.app.goo.gl/fA2ANLyhFpjV8xkJA?g_st=ic",
@@ -623,7 +639,7 @@
             "typeCard": 2
         },
         {
-            "id": 230,
+            "id": 231,
             "title": "Restaurant Casa Sipán",
             "description": "Carretera Pomalca- Huaca Rajada Km. 28 - Cruce Pucalá - Chiclayo",
             "location": "https://maps.app.goo.gl/Kz5drwWevT5RoCGo9?g_st=ic",
@@ -638,7 +654,7 @@
             "typeCard": 2
         },
         {
-            "id": 231,
+            "id": 232,
             "title": "Mall Aventura",
             "description": "Descubre un Centro Comercial que alberga una diversidad de comercios y tiendas para explorar.",
             "location": "https://maps.app.goo.gl/Ga8XXYRgt1ynBR4MA?g_st=ic",
@@ -653,7 +669,7 @@
             "typeCard": 2
         },
         {
-            "id": 232,
+            "id": 233,
             "title": "Real Plaza",
             "description": "Explora un Centro Comercial con una gran variedad de comercios y tiendas.",
             "location": "https://maps.app.goo.gl/5UHGEWT4J23PMgrf9?g_st=ic",
@@ -668,7 +684,7 @@
             "typeCard": 2
         },
         {
-            "id": 233,
+            "id": 234,
             "title": "Open Plaza",
             "description": "Explora un Centro Comercial que ofrece una amplia selección de tiendas y comercios para todos los gustos.",
             "location": "https://maps.app.goo.gl/oQ1zQiXHG3wu4sFp8?g_st=ic",
@@ -682,7 +698,7 @@
             "time": "10 min"
         },
         {
-            "id": 234,
+            "id": 235,
             "title": "Restaurant Campestre El Mirador",
             "description": "Disfruta un día familiar. Atención Sábados, Domingos y Feriados",
             "location": "https://maps.app.goo.gl/2x8J1uYYpmDk9zpr6?g_st=ic",
@@ -697,7 +713,7 @@
             "typeCard": 2
         },
         {
-            "id": 235,
+            "id": 236,
             "title": "Las Pirkas",
             "description": "Atención todos los días a partir de las 9:00 am, visíta y disfruta un día increíble en Las Pirkas.",
             "location": "https://maps.app.goo.gl/HeiPU9bHYk8pTYZo6?g_st=ic",
@@ -712,7 +728,7 @@
             "typeCard": 2
         },
         {
-            "id": 236,
+            "id": 237,
             "title": "Restaurante Marakos Grill",
             "description": "Ubicado en el distrito de Pimente - Chiclayo",
             "location": "https://maps.app.goo.gl/dR2F8NpMNJr6C1sQ7?g_st=ic",
@@ -727,7 +743,7 @@
             "typeCard": 2
         },
         {
-            "id": 237,
+            "id": 238,
             "title": "Parrillas El Uruguayo",
             "description": "Ubicado en la avenida Elvira García y García 438 - Chiclayo.",
             "location": "https://maps.app.goo.gl/yqwVYwUZmyMMyu8Y7?g_st=ic",
@@ -742,7 +758,7 @@
             "typeCard": 2
         },
         {
-            "id": 238,
+            "id": 239,
             "title": "Restaurant El Pacífico",
             "description": "Ubicado en la avenida Huamachuco 970 - Lambayeque.",
             "location": "https://maps.app.goo.gl/iLNKQEjCDukcjvhZA?g_st=ic",
@@ -757,7 +773,7 @@
             "typeCard": 2
         },
         {
-            "id": 239,
+            "id": 240,
             "title": "Restaurant Di Limón",
             "description": "Ubicado en la calle R. De Mendoza - Lambayeque.",
             "location": "https://maps.app.goo.gl/GZ8X5RztUQmxpwJt7?g_st=ic",
@@ -772,7 +788,7 @@
             "typeCard": 2
         },
         {
-            "id": 240,
+            "id": 241,
             "title": "SUMA Strip Mall",
             "description": "Strip Mall que te invita a vivir nuevas experiencias. Ubicado en Avenida Grau 850 - Chiclayo",
             "location": "https://maps.app.goo.gl/bNyMUjrtL45LgW2YA?g_st=ic",
