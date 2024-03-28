@@ -2,6 +2,19 @@
     "nearvy": [
         {
             "id": 101,
+            "title": "Rest. Delicias y Sabores",
+            "description": "Restaurante ubicado en Prolongación Bolognesi en donde encontrarás variedades de desayunos, almuerzos y platos a la carta.",
+            "location": "https://maps.app.goo.gl/NgXMiTxoT7M3XZFa9?g_st=ic",
+            "image": "https://i.ibb.co/vszsHg4/deliciassabores.png",
+            "district": "Chiclayo",
+            "province": "Chiclayo",
+            "direction": "Av. Prol. Bolognesi",
+            "partOfDay": 1,
+            "carOrWalk": 1,
+            "time": "3 min"
+        },
+        {
+            "id": 102,
             "title": "Cevichería Aji Limo",
             "description": "El ceviche de Aji Limo, premiado como mejor ceviche al paso de Chiclayo.",
             "location": "https://maps.app.goo.gl/BWHXfohLwYapPtx16",
@@ -14,7 +27,7 @@
             "time": "2 min"
         },
         {
-            "id": 102,
+            "id": 103,
             "title": "Cevichería David",
             "description": "Se forma extensa cola para deleitarse con el ceviche, ubicado en la avenida Prolongación Bolognesi.",
             "location": "https://maps.app.goo.gl/7FyjK6wzRXnQpUMJA?g_st=ic",
@@ -27,30 +40,17 @@
             "time": "2 min"
         },
         {
-            "id": 103,
-            "title": "El Pelao - Cevichería",
-            "description": "El Pelao, ubicado en la avenida Prolongación Bolognesi. Destacable ceviche al paso, para disfrutar.",
-            "location": "https://maps.app.goo.gl/3etprcLmCZSmHKkz8?g_st=ic",
-            "image": "https://i.ibb.co/bNhdYc8/pelao.png",
+            "id": 104,
+            "title": "Mercado Sol de Oro - Las Brisas",
+            "description": "Este mercado se ubica a pocos minutos del alojamiento, dónde encontrarás de todo.",
+            "location": "https://maps.app.goo.gl/R62T8A6gyzT4KZ949?g_st=ic",
+            "image": "https://i.ibb.co/7z8XRsK/mercado-sol.png",
             "district": "Chiclayo",
             "province": "Chiclayo",
-            "direction": "Av. Prol. Bolognesi",
+            "direction": "Calle A. Alva Diaz",
             "partOfDay": 1,
             "carOrWalk": 1,
-            "time": "2 min"
-        },
-        {
-            "id": 104,
-            "title": "Cevichería Zumito",
-            "description": "Ubicado cerca al paradero de colectivos de Las Brisas. Destacable ceviche al paso, para disfrutar.",
-            "location": "https://maps.app.goo.gl/jef651hL2R3xYY3m7?g_st=ic",
-            "image": "https://i.ibb.co/vxbvQy4/zumito.png",
-            "district": "Chiclayo",
-            "province": "Chiclayo",
-            "direction": "Calle El Vaticano",
-            "partOfDay": 1,
-            "carOrWalk": 2,
-            "time": "3 min"
+            "time": "5 min"
         },
         {
             "id": 105,
@@ -66,19 +66,6 @@
         },
         {
             "id": 106,
-            "title": "Rest. Delicias y Sabores",
-            "description": "Restaurante ubicado en Prolongación Bolognesi en donde encontrarás variedades de almuerzos y platos a la carta.",
-            "location": "https://maps.app.goo.gl/NgXMiTxoT7M3XZFa9?g_st=ic",
-            "image": "https://i.ibb.co/vszsHg4/deliciassabores.png",
-            "district": "Chiclayo",
-            "province": "Chiclayo",
-            "direction": "Av. Prol. Bolognesi",
-            "partOfDay": 1,
-            "carOrWalk": 1,
-            "time": "3 min"
-        },
-        {
-            "id": 107,
             "title": "Parrillas Mr. Wences",
             "description": "Local nuevo donde encontrarás parrillas, etc. A una puerta de BRISAMAR'S mar y tierra.",
             "location": "https://maps.app.goo.gl/En93CLUqRpHG5xwV8",
@@ -91,7 +78,7 @@
             "time": "1 min"
         },
         {
-            "id": 108,
+            "id": 107,
             "title": "Botica Las Brisas",
             "description": "Encontrarás todo tipo de medicamentos, ubicado en el centro de las Brisas",
             "location": "https://maps.app.goo.gl/okRPHW6abHEdEunbA?g_st=ic",
@@ -104,33 +91,7 @@
             "time": "5 min"
         },
         {
-            "id": 109,
-            "title": "Mercado Sol de Oro - Las Brisas",
-            "description": "Este mercado se ubica a pocos minutos del alojamiento, dónde encontrarás de todo.",
-            "location": "https://maps.app.goo.gl/R62T8A6gyzT4KZ949?g_st=ic",
-            "image": "https://i.ibb.co/7z8XRsK/mercado-sol.png",
-            "district": "Chiclayo",
-            "province": "Chiclayo",
-            "direction": "Calle A. Alva Diaz",
-            "partOfDay": 1,
-            "carOrWalk": 1,
-            "time": "5 min"
-        },
-        {
-            "id": 110,
-            "title": "Supermercado Metro",
-            "description": "Supermercado ubicado en la esquina de las avenidas Grau y Las Américas, donde encontrarás de todo.",
-            "location": "https://maps.app.goo.gl/5FxV4oiLJavcgG1FA?g_st=ic",
-            "image": "https://i.ibb.co/G0HBpvb/Captura-de-pantalla-2024-02-24-180455.png",
-            "district": "Chiclayo",
-            "province": "Chiclayo",
-            "direction": "Calle A. Alva Diaz",
-            "partOfDay": 3,
-            "carOrWalk": 1,
-            "time": "5 min"
-        },
-        {
-            "id": 111,
+            "id": 108,
             "title": "Comida al paso",
             "description": "Aquí econtrarás variedad de comidas como sanguches de lechón, platos para cenar, etc.",
             "location": "https://maps.app.goo.gl/rgZ1kMkd74SMgzs17",
@@ -141,6 +102,45 @@
             "partOfDay": 2,
             "carOrWalk": 1,
             "time": "3 min"
+        },
+        {
+            "id": 109,
+            "title": "El Pelao - Cevichería",
+            "description": "El Pelao, ubicado en la avenida Prolongación Bolognesi. Destacable ceviche al paso, para disfrutar.",
+            "location": "https://maps.app.goo.gl/3etprcLmCZSmHKkz8?g_st=ic",
+            "image": "https://i.ibb.co/bNhdYc8/pelao.png",
+            "district": "Chiclayo",
+            "province": "Chiclayo",
+            "direction": "Av. Prol. Bolognesi",
+            "partOfDay": 1,
+            "carOrWalk": 1,
+            "time": "2 min"
+        },
+        {
+            "id": 110,
+            "title": "Cevichería Zumito",
+            "description": "Ubicado cerca al paradero de colectivos de Las Brisas. Destacable ceviche al paso, para disfrutar.",
+            "location": "https://maps.app.goo.gl/jef651hL2R3xYY3m7?g_st=ic",
+            "image": "https://i.ibb.co/vxbvQy4/zumito.png",
+            "district": "Chiclayo",
+            "province": "Chiclayo",
+            "direction": "Calle El Vaticano",
+            "partOfDay": 1,
+            "carOrWalk": 2,
+            "time": "3 min"
+        },
+        {
+            "id": 111,
+            "title": "Supermercado Metro",
+            "description": "Supermercado ubicado en la esquina de las avenidas Grau y Las Américas, donde encontrarás de todo.",
+            "location": "https://maps.app.goo.gl/5FxV4oiLJavcgG1FA?g_st=ic",
+            "image": "https://i.ibb.co/G0HBpvb/Captura-de-pantalla-2024-02-24-180455.png",
+            "district": "Chiclayo",
+            "province": "Chiclayo",
+            "direction": "Calle A. Alva Diaz",
+            "partOfDay": 3,
+            "carOrWalk": 1,
+            "time": "5 min"
         },
         {
             "id": 112,
