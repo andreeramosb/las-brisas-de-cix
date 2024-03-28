@@ -133,14 +133,14 @@
             "id": 111,
             "title": "Comida al paso",
             "description": "Aquí econtrarás variedad de comidas como sanguches de lechón, platos para cenar, etc.",
-            "location": "https://maps.app.goo.gl/ryuseB4XoxL29KiKA",
+            "location": "https://maps.app.goo.gl/DjyL6aPq1YSYcKfr7",
             "image": "https://images.vexels.com/media/users/3/259473/isolated/preview/5262b17d1eb155b7232a5963df3fcf08-silueta-detallada-del-carrito-de-comida.png",
             "district": "Chiclayo",
             "province": "Chiclayo",
             "direction": "Av. Prol. Bolognesi",
             "partOfDay": 2,
             "carOrWalk": 1,
-            "time": "1 min"
+            "time": "3 min"
         },
         {
             "id": 112,
