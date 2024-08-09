@@ -162,7 +162,7 @@
             "district": "Chiclayo",
             "province": "Chiclayo",
             "direction": "Av. Prol. Bolognesi",
-            "partOfDay": 3,
+            "partOfDay": 1,
             "carOrWalk": 1,
             "time": "1 min",
             "type":"salud"
@@ -172,7 +172,7 @@
             "title": "Panadería",
             "description": "En esta cuadra encontrará una panadería que también ofrece una variedad de abarrotes.",
             "location": "https://maps.app.goo.gl/9dhqwZnAy9af2H8K7?g_st=ic",
-            "image": "https://img.pikbest.com/wp/202405/shopping-cart-3d-rendering-of-a-loaded-with-hamburgers_9798705.jpg!bw700",
+            "image": "https://static.vecteezy.com/system/resources/previews/022/450/426/non_2x/bread-cartoon-drawn-loaf-retro-icon-of-the-bakery-food-from-cereals-farm-natural-product-vector.jpg",
             "district": "Chiclayo",
             "province": "Chiclayo",
             "direction": "Av. Prol. Bolognesi",
