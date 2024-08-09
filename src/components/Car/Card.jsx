@@ -1,32 +1,46 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { GeoAltFill, MoonFill, SunFill, CarFrontFill } from 'react-bootstrap-icons';
 import './Card.css';
 
 const Card = ({ title, description, location, image, district, province, direction, partOfDay, carOrWalk, time }) => {
-    // Función para acortar la descripción si es necesario
+    const [loading, setLoading] = useState(true);
+
     const shortenDescription = (desc, maxLength) => {
-        if (desc.length <= maxLength) {
-            return desc;
-        } else {
-            return desc.substring(0, maxLength) + '...';
-        }
+        return desc.length <= maxLength ? desc : desc.substring(0, maxLength) + '...';
+    };
+
+    const handleImageLoad = () => {
+        setLoading(false);
     };
 
     return (
         <div className="card" style={{ border: "0" }}>
-            <img src={image} className="card-img-top" style={{ height: "300px" }} />
+            <div style={{ position: 'relative' }}>
+                {loading && (
+                    <div className="loading-overlay">
+                        <span className="loading-text">Cargando...</span>
+                    </div>
+                )}
+                <img 
+                    src={image} 
+                    className="card-img-top" 
+                    style={{ height: "300px", display: loading ? 'none' : 'block' }} 
+                    onLoad={handleImageLoad} 
+                    alt="Card" 
+                />
+            </div>
             <div className="card-body" style={{ marginTop: "1rem" }}>
                 <span style={{ display: "flex", alignItems: "center"}}>
                     {partOfDay === 1 ?
                         <SunFill className='icon-attention' style={{ color: " #FFA500", marginRight: "3px" }} /> : partOfDay === 2 ?
                             <MoonFill className='icon-attention' style={{ color: " #FFA500", marginRight: "3px" }} /> : partOfDay === 3 ?
-                            <span style={{ display: "flex", alignItems: "center" }}><SunFill className='icon-attention' style={{ color: " #FFA500", marginRight: "2px" }} />  <MoonFill className='icon-attention' style={{ color: " #FFA500", paddingLeft: "2px", borderLeft: "1px solid black",  marginRight: "3px"}} /></span> :
+                            <span style={{ display: "flex", alignItems: "center" }}><SunFill className='icon-attention' style={{ color: " #FFA500", marginRight: "2px" }} />  <MoonFill className='icon-attention' style={{ color: " #FFA500", paddingLeft: "2px", borderLeft: "1px solid black", marginRight: "3px"}} /></span> :
                             null
                     }{' '}
                     {partOfDay === 1 ? 'Día' : partOfDay === 2 ? 'Noche' : partOfDay === 3 ? 'Día y Noche' : ""}
                 </span>
                 <h5 className="card-title" style={{ marginTop: "0.5rem"}}>{title}</h5>
-                <p className="card-text" >{shortenDescription(description, 120)}</p>  
+                <p className="card-text">{shortenDescription(description, 120)}</p>  
                 <div className='footer-card-without-btn'>
                     <a href={location} className="col-8">
                         <GeoAltFill className='icon-place' /> {district}

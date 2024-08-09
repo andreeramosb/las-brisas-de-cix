@@ -5,13 +5,14 @@
             "title": "Rest. Delicias y Sabores",
             "description": "Ubicado en Prolongación Bolognesi en donde encontrarás variedades de desayunos, almuerzos y platos a la carta.",
             "location": "https://maps.app.goo.gl/NgXMiTxoT7M3XZFa9?g_st=ic",
-            "image": "https://i.ibb.co/vszsHg4/deliciassabores.png",
+            "image": "https://i.ibb.co/FhvHHYT/Delicias-Sabores.png", 
             "district": "Chiclayo",
             "province": "Chiclayo",
             "direction": "Av. Prol. Bolognesi",
             "partOfDay": 1,
             "carOrWalk": 1,
-            "time": "3 min"
+            "time": "3 min",
+            "type":"comida"
         },
         {
             "id": 102,
@@ -24,7 +25,8 @@
             "direction": "Av. Prol. Bolognesi",
             "partOfDay": 1,
             "carOrWalk": 1,
-            "time": "2 min"
+            "time": "2 min",
+            "type":"comida"
         },
         {
             "id": 103,
@@ -37,7 +39,8 @@
             "direction": "Av. Prol. Bolognesi",
             "partOfDay": 1,
             "carOrWalk": 1,
-            "time": "2 min"
+            "time": "2 min",
+            "type":"comida"
         },
         {
             "id": 104,
@@ -50,32 +53,35 @@
             "direction": "Calle A. Alva Diaz",
             "partOfDay": 1,
             "carOrWalk": 1,
-            "time": "5 min"
+            "time": "5 min",
+            "type":"mercado"
         },
         {
             "id": 105,
             "title": "Rest. BRISAMAR'S mar y tierra",
             "description": "Variedad de platos: almuerzos, pescados, mariscos, parrillas, anticuchos  mucho más para disfrutar.",
             "location": "https://maps.app.goo.gl/821ePbYoQDK9X47VA?g_st=ic",
-            "image": "https://i.ibb.co/vhRtfST/birsamars.png",
+            "image": "https://i.ibb.co/MNyVYCH/BRISAMAR.png",
             "district": "Chiclayo",
             "province": "Chiclayo",
             "direction": "Av. Prol. Bolognesi",
             "carOrWalk": 3,
-            "time": "1 min"
+            "time": "1 min",
+            "type":"comida"
         },
         {
             "id": 106,
             "title": "Parrillas Mr. Wences",
             "description": "Local nuevo donde encontrarás parrillas, etc. A una puerta de BRISAMAR'S mar y tierra.",
             "location": "https://maps.app.goo.gl/En93CLUqRpHG5xwV8",
-            "image": "https://i.ibb.co/qkgktDR/Imagen-de-Whats-App-2024-01-31-a-las-17-13-41-fe7d524f.jpg",
+            "image": "https://i.ibb.co/nChxLsC/MRWences.png",
             "district": "Chiclayo",
             "province": "Chiclayo",
             "direction": "Av. Prol. Bolognesi",
             "partOfDay": 2,
             "carOrWalk": 1,
-            "time": "1 min"
+            "time": "1 min",
+            "type":"comida"
         },
         {
             "id": 107,
@@ -88,12 +94,13 @@
             "direction": "Calle Teatro",
             "partOfDay": 3,
             "carOrWalk": 2,
-            "time": "5 min"
+            "time": "5 min",
+            "type":"salud"
         },
         {
             "id": 108,
             "title": "Comida al paso",
-            "description": "Aquí econtrarás variedad de comidas como sanguches de lechón, platos para cenar, etc.",
+            "description": "Econtrarás variedad de comidas como sanguches de lechón, platos para cenar, etc, desde las 7pm hasta las 3am",
             "location": "https://maps.app.goo.gl/rgZ1kMkd74SMgzs17",
             "image": "https://images.vexels.com/media/users/3/259473/isolated/preview/5262b17d1eb155b7232a5963df3fcf08-silueta-detallada-del-carrito-de-comida.png",
             "district": "Chiclayo",
@@ -101,7 +108,8 @@
             "direction": "Av. Prol. Bolognesi",
             "partOfDay": 2,
             "carOrWalk": 1,
-            "time": "3 min"
+            "time": "3 min",
+            "type":"comida"
         },
         {
             "id": 109,
@@ -114,7 +122,8 @@
             "direction": "Av. Prol. Bolognesi",
             "partOfDay": 1,
             "carOrWalk": 1,
-            "time": "2 min"
+            "time": "2 min",
+            "type":"comida"
         },
         {
             "id": 110,
@@ -127,7 +136,8 @@
             "direction": "Calle El Vaticano",
             "partOfDay": 1,
             "carOrWalk": 2,
-            "time": "3 min"
+            "time": "3 min",
+            "type":"comida"
         },
         {
             "id": 111,
@@ -140,7 +150,8 @@
             "direction": "Calle A. Alva Diaz",
             "partOfDay": 3,
             "carOrWalk": 1,
-            "time": "5 min"
+            "time": "5 min",
+            "type":"comercial"
         },
         {
             "id": 112,
@@ -153,7 +164,8 @@
             "direction": "Av. Prol. Bolognesi",
             "partOfDay": 3,
             "carOrWalk": 1,
-            "time": "1 min"
+            "time": "1 min",
+            "type":"otros"
         }
     ],
     "places": [
@@ -170,7 +182,7 @@
             "distance": 3.7,
             "carOrWalk": 2,
             "time": "9 min",
-            "type": "Lugares Turísticos",
+            "type": "turistico",
             "typeCard": 1
         },        
         {
@@ -186,7 +198,7 @@
             "distance": 3.1,
             "carOrWalk": 2,
             "time": "7 min",
-            "type": "Lugares Turísticos",
+            "type": "turistico",
             "typeCard": 1
         },
         {
@@ -194,7 +206,7 @@
             "title": "Paseo de las Musas",
             "description": "En Chiclayo, una ciudad del departamento de Lambayeque, cerca del Parque Principal, se encuentra una atracción turística conocida como Paseo Las Musas. Este encantador paseo está rodeado de exuberantes jardines repletos de flores de colores vivos y destaca por su principal atracción: un monumento decorado con elegantes esculturas helénicas.<br><br>El Paseo Las Musas ha ganado popularidad como uno de los destinos preferidos para las parejas enamoradas. La arquitectura y la vegetación del lugar brindan una atmósfera romántica que inspira a quienes lo visitan, enriqueciendo aún más la experiencia de aquellos que exploran este fascinante lugar de Chiclayo.<br><br>Además, para quienes decidan visitarlo, encontrarán una variedad de lugares cercanos donde disfrutar de una deliciosa comida.",
             "location": "https://maps.app.goo.gl/DLQE2D7UeZGXJSDz9?g_st=ic",
-            "image": "https://yourpassperu.com/wp-content/uploads/2020/03/chiclayo-las-musas15.jpg",
+            "image": "https://i.ibb.co/fxmQzxq/las-musas.jpg",
             "video": "https://www.youtube.com/watch?v=f9XR3JqMiCU",
             "district": "Chiclayo",
             "province": "Chiclayo",
@@ -202,7 +214,7 @@
             "distance": 3.2,
             "carOrWalk": 2,
             "time": "7 min",
-            "type": "Lugares Turísticos",
+            "type": "turistico",
             "typeCard": 1
         },
         {
@@ -218,7 +230,7 @@
             "distance": 3.8,
             "carOrWalk": 2,
             "time": "10 min",
-            "type": "Lugares Turísticos",
+            "type": "turistico",
             "typeCard": 1
         },
         {
@@ -234,7 +246,7 @@
             "distance": 2.9,
             "carOrWalk": 2,
             "time": "6 min",
-            "type": "Lugares Turísticos",
+            "type": "turistico",
             "typeCard": 2
         },
         {
@@ -250,6 +262,7 @@
             "distance": 11,
             "carOrWalk": 2,
             "time": "19 min",
+            "type": "otros",
             "typeCard": 1
         },
         {
@@ -265,7 +278,7 @@
             "distance": 12,
             "carOrWalk": 2,
             "time": "20 min",
-            "type": "Lugares Turísticos",
+            "type": "turistico",
             "typeCard": 1
         },
         {
@@ -281,7 +294,7 @@
             "distance": 12,
             "carOrWalk": 2,
             "time": "20 min",
-            "type": "Lugares Turísticos",
+            "type": "turistico",
             "typeCard": 1
         },
         {
@@ -296,7 +309,7 @@
             "distance": 13.6,
             "carOrWalk": 2,
             "time": "20 min",
-            "type": "Lugares Turísticos",
+            "type": "turistico",
             "typeCard": 1
         },
         {
@@ -312,7 +325,7 @@
             "distance": 11.8,
             "carOrWalk": 2,
             "time": "19 min",
-            "type": "Playa",
+            "type": "playa",
             "typeCard": 1
         },
         {
@@ -328,7 +341,7 @@
             "distance": 12.4,
             "carOrWalk": 2,
             "time": "18 min",
-            "type": "Lugares Turísticos",
+            "type": "turistico",
             "typeCard": 1
         },
         {
@@ -336,7 +349,7 @@
             "title": "Playa Puerto Eten",
             "description": "Puerto Eten, en Lambayeque, es una extensa playa llamada \"Playa de ensueño\". Ofrece un paisaje variado con rocas y amplias áreas de arena. Además, disfruta de un clima fresco, sin lluvias y con vientos moderados, lo que lo convierte en un destino muy atractivo.",
             "location": "https://maps.app.goo.gl/Vea8Tb38aDa7a5KfA?g_st=ic",
-            "image": "https://seturismo.pe/wp-content/uploads/2019/02/playa-puerto-eten-lambayeque.jpg",
+            "image": "https://i.ibb.co/8YZtNyn/puerto-eten.jpg",
             "video": "https://www.youtube.com/watch?v=L-26_5H6YYI",
             "district": "Puerto Eten",
             "province": "Chiclayo",
@@ -344,7 +357,7 @@
             "distance": 18.8,
             "carOrWalk": 2,
             "time": "29 min",
-            "type": "Playa",
+            "type": "playa",
             "typeCard": 1
         },
         {
@@ -360,7 +373,7 @@
             "distance": 17.0,
             "carOrWalk": 2,
             "time": "25 min",
-            "type": "Playa",
+            "type": "playa",
             "typeCard": 1
         },
         {
@@ -376,7 +389,7 @@
             "distance": 13.5,
             "carOrWalk": 2,
             "time": "18 min",
-            "type": "Playa",
+            "type": "playa",
             "typeCard": 2
         },
         {
@@ -392,7 +405,7 @@
             "distance": 4.2,
             "carOrWalk": 2,
             "time": "12 min",
-            "type": "Mercados",
+            "type": "mercado",
             "typeCard": 2
         },
         {
@@ -408,7 +421,7 @@
             "distance": 4.2,
             "carOrWalk": 2,
             "time": "11 min",
-            "type": "Mercados",
+            "type": "mercado",
             "typeCard": 2
         },
         {
@@ -424,7 +437,7 @@
             "distance": 34,
             "carOrWalk": 2,
             "time": "45 min",
-            "type": "Lugares Turísticos",
+            "type": "turistico",
             "typeCard": 1
         },
         {
@@ -440,7 +453,7 @@
             "distance": 48.7,
             "carOrWalk": 2,
             "time": "1h 16 min",
-            "type": "Lugares Turísticos",
+            "type": "turistico",
             "typeCard": 1
         },
         {
@@ -456,7 +469,7 @@
             "distance": 24.7,
             "carOrWalk": 2,
             "time": "44 min",
-            "type": "Lugares Turísticos",
+            "type": "turistico",
             "typeCard": 1
         },
         {
@@ -472,7 +485,7 @@
             "distance": 33.0,
             "carOrWalk": 2,
             "time": "50 min",
-            "type": "Lugares Turísticos",
+            "type": "turistico",
             "typeCard": 1
         },
         {
@@ -488,7 +501,7 @@
             "distance": 81.2,
             "carOrWalk": 2,
             "time": "2h 14 min",
-            "type": "Lugares Turísticos",
+            "type": "turistico",
             "typeCard": 1
         },
         {
@@ -504,7 +517,7 @@
             "distance": 49.3,
             "carOrWalk": 2,
             "time": "54 min",
-            "type": "Lugares Turísticos",
+            "type": "turistico",
             "typeCard": 1
         },
         {
@@ -520,7 +533,7 @@
             "distance": 68.2,
             "carOrWalk": 2,
             "time": "1h 41 min",
-            "type": "Lugares Turísticos",
+            "type": "turistico",
             "typeCard": 1
         },
         {
@@ -536,7 +549,7 @@
             "distance": 63.0,
             "carOrWalk": 2,
             "time": "1h 32 min",
-            "type": "Lugares Turísticos",
+            "type": "turistico",
             "typeCard": 1
         },
         {
@@ -552,7 +565,7 @@
             "distance": 16.9,
             "carOrWalk": 2,
             "time": "30 min",
-            "type": "Lugares Turísticos",
+            "type": "turistico",
             "typeCard": 1
         },
         {
@@ -568,7 +581,7 @@
             "distance": 17.9,
             "carOrWalk": 2,
             "time": "33 min",
-            "type": "Lugares Turísticos",
+            "type": "turistico",
             "typeCard": 1
         },
         {
@@ -584,7 +597,7 @@
             "distance": 106,
             "carOrWalk": 2,
             "time": "2h 15 m",
-            "type": "Lugares Turísticos",
+            "type": "turistico",
             "typeCard": 1
         },
         {
@@ -600,7 +613,7 @@
             "distance": 12,
             "carOrWalk": 2,
             "time": "19 min",
-            "type": "Universidades",
+            "type": "educacion",
             "typeCard": 2
         },
         {
@@ -616,7 +629,7 @@
             "distance": 5.3,
             "carOrWalk": 2,
             "time": "11 min",
-            "type": "Universidades",
+            "type": "educacion",
             "typeCard": 2
         },
         {
@@ -632,7 +645,7 @@
             "distance": 3.6,
             "carOrWalk": 2,
             "time": "6 min",
-            "type": "Universidades",
+            "type": "educacion",
             "typeCard": 2
         },
         {
@@ -648,7 +661,7 @@
             "distance": 3.9,
             "carOrWalk": 2,
             "time": "7 min",
-            "type": "Universidades",
+            "type": "educacion",
             "typeCard": 2
         },
         {
@@ -656,7 +669,7 @@
             "title": "Restaurant Casa Sipán",
             "description": "Carretera Pomalca- Huaca Rajada Km. 28 - Cruce Pucalá - Chiclayo",
             "location": "https://maps.app.goo.gl/Kz5drwWevT5RoCGo9?g_st=ic",
-            "image": "https://scontent.fcix4-2.fna.fbcdn.net/v/t1.6435-9/65268775_10157393974938659_2699445464465408000_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=fJD3WjcDetoAX_7w-2B&_nc_ht=scontent.fcix4-2.fna&oh=00_AfBO9nE_9HCj3GwHOr1phuqpvb2ixeBpxPsME658zlb-oQ&oe=65E7E842",
+            "image": "https://i.ibb.co/7jcdkd4/casa-sipan.jpg",
             "video": "",
             "district": "Pucalá",
             "province": "Chiclayo",
@@ -664,6 +677,7 @@
             "distance": 32.7,
             "carOrWalk": 2,
             "time": "48 min",
+            "type":"comida",
             "typeCard": 2
         },
         {
@@ -679,6 +693,7 @@
             "distance": 5.0,
             "carOrWalk": 2,
             "time": "10 min",
+            "type":"comercial",
             "typeCard": 2
         },
         {
@@ -694,6 +709,7 @@
             "distance": 4.5,
             "carOrWalk": 2,
             "time": "11 min",
+            "type":"comercial",
             "typeCard": 2
         },
         {
@@ -708,6 +724,7 @@
             "partOfDay": 3,
             "distance": 4.3,
             "carOrWalk": 2,
+            "type":"comercial",
             "time": "10 min"
         },
         {
@@ -723,14 +740,15 @@
             "distance": 11,
             "carOrWalk": 2,
             "time": "18 min",
+            "type":"comida",
             "typeCard": 2
         },
         {
             "id": 236,
-            "title": "Las Pirkas",
+            "title": "Recreo campestre Las Pirkas",
             "description": "Atención todos los días a partir de las 9:00 am, visíta y disfruta un día increíble en Las Pirkas.",
             "location": "https://maps.app.goo.gl/HeiPU9bHYk8pTYZo6?g_st=ic",
-            "image": "https://scontent.fcix4-2.fna.fbcdn.net/v/t39.30808-6/324105761_219680777139676_4202576827816454387_n.png?_nc_cat=109&ccb=1-7&_nc_sid=783fdb&_nc_ohc=6RxTzdz6DI4AX-cYWor&_nc_ht=scontent.fcix4-2.fna&oh=00_AfBfLVNpDqA0I4zn7rMPzWs0hxbrqxQsjkwHeOFyXnxXKw&oe=65DE87EC",
+            "image": "https://i.ibb.co/zxY8Pnj/pirkas.jpg",
             "video": "",
             "district": "Jayanca",
             "province": "Lambayeque",
@@ -738,6 +756,7 @@
             "distance": 46.9,
             "carOrWalk": 2,
             "time": "1h 3min",
+            "type":"comida",
             "typeCard": 2
         },
         {
@@ -745,7 +764,7 @@
             "title": "Restaurante Marakos Grill",
             "description": "Ubicado en el distrito de Pimente - Chiclayo",
             "location": "https://maps.app.goo.gl/dR2F8NpMNJr6C1sQ7?g_st=ic",
-            "image": "https://10619-2.s.cdn12.com/rests/original/108_512106182.jpg",
+            "image": "https://fastly.4sqi.net/img/general/600x600/90793827_fiXM6_I3X9DuRvGFRKgBNN0yvKikcQ_IzuZp0InTRY0.jpg",
             "video": "",
             "district": "Pimentel",
             "province": "Chiclayo",
@@ -753,6 +772,7 @@
             "distance": 11.0,
             "carOrWalk": 2,
             "time": "17 min",
+            "type":"comida",
             "typeCard": 2
         },
         {
@@ -768,6 +788,7 @@
             "distance": 2.5,
             "carOrWalk": 2,
             "time": "5 min",
+            "type":"comida",
             "typeCard": 2
         },
         {
@@ -775,7 +796,7 @@
             "title": "Restaurant El Pacífico",
             "description": "Ubicado en la avenida Huamachuco 970 - Lambayeque.",
             "location": "https://maps.app.goo.gl/iLNKQEjCDukcjvhZA?g_st=ic",
-            "image": "https://scontent.fcix4-2.fna.fbcdn.net/v/t1.6435-9/185965710_2818882981759816_443946915276465759_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=VBpEVgcEmEYAX8FCKRc&_nc_ht=scontent.fcix4-2.fna&oh=00_AfDOAle2xQ5TqxqADIaalziRn4e3vUoWZKJwML-JwFf-Ug&oe=65E8B63C",
+            "image": "https://media-cdn.tripadvisor.com/media/photo-s/1b/87/d5/ec/frontis-del-local-fuimos.jpg",
             "video": "",
             "district": "Lambayeque",
             "province": "Lambayeque",
@@ -783,6 +804,7 @@
             "distance": 11,
             "carOrWalk": 2,
             "time": "18 min",
+            "type":"comida",
             "typeCard": 2
         },
         {
@@ -790,7 +812,7 @@
             "title": "Restaurant Di Limón",
             "description": "Ubicado en la calle R. De Mendoza - Lambayeque.",
             "location": "https://maps.app.goo.gl/GZ8X5RztUQmxpwJt7?g_st=ic",
-            "image": "https://scontent.fcix4-2.fna.fbcdn.net/v/t1.6435-9/81277581_2515533171994673_3840533642682040320_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=Xfxux0vzPjYAX-gnmuk&_nc_ht=scontent.fcix4-2.fna&oh=00_AfAhGPWU4GAEpYSVvTsJv3jKK2KPoS18rK2euOucFEVwEw&oe=65E89BA7",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSPtkJBZ69ztVpJCOTlehYHg9m-I9-YiqJPg&s",
             "video": "",
             "district": "Lambayeque",
             "province": "Lambayeque",
@@ -798,6 +820,7 @@
             "distance": 13,
             "carOrWalk": 2,
             "time": "20 min",
+            "type":"comida",
             "typeCard": 2
         },
         {
@@ -813,6 +836,7 @@
             "distance": 3.1,
             "carOrWalk": 2,
             "time": "6 min",
+            "type":"comercial",
             "typeCard": 2
         }
     ]

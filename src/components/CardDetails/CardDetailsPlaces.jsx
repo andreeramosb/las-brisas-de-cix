@@ -1,29 +1,55 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import data from '../../data/data.json';
 import './CardDetailsNearvy.css';
 import CardWithButton from '../CardWithButton/CardWithButton';
 import Card from '../Car/Card';
 
-const CardDetailsNearvy = () => {
-    const places = data.places;
+const CardDetailsPlaces = () => {
+    // Extrae los tipos únicos de lugares del JSON
+    const allTypes = [...new Set(data.places.map(place => place.type))];
+    // Añade "todos" al inicio y coloca "otros" al final
+    const uniqueTypes = ['todos', ...allTypes.filter(type => type !== 'otros'), 'otros'];
+
+    const [selectedType, setSelectedType] = useState(uniqueTypes[0]); // Selecciona "todos" por defecto
+
+    // Filtra los lugares según el tipo seleccionado
+    const filteredPlaces = selectedType === 'todos'
+        ? data.places
+        : selectedType === 'otros'
+        ? data.places.filter(place => place.type === 'otros')
+        : data.places.filter(place => place.type === selectedType);
 
     useEffect(() => {
-        // Esta función se ejecutará cuando el componente se monte
+        // Desplaza hacia arriba al montar el componente
         const handleScrollToTop = () => {
-            window.scrollTo(0, 0); // Hace que la página se desplace hacia arriba al montar el componente
+            window.scrollTo(0, 0);
         };
 
-        // Llama a la función para asegurarse de que la página esté en la parte superior al montar el componente
         handleScrollToTop();
 
-        // Limpia el efecto al desmontar el componente
         return () => window.removeEventListener('scroll', handleScrollToTop);
-    }, []); // El array vacío asegura que el efecto solo se ejecute una vez al montar el componente
+    }, [selectedType]); // Se ejecuta cuando cambia el tipo seleccionado
 
     return (
         <div className="container mt-5 mb-5">
+            <div className="row">
+                <div className="col-12 mb-4">
+                    <select
+                        className="form-select form-select-lg"
+                        value={selectedType}
+                        onChange={(e) => setSelectedType(e.target.value)}
+                    >
+                        {uniqueTypes.map(type => (
+                            <option key={type} value={type}>
+                                {type.charAt(0).toUpperCase() + type.slice(1)}
+                            </option>
+                        ))}
+                    </select>
+                </div>
+            </div>
+
             <div className="row cards-container-details">
-                {places.map(place => (
+                {filteredPlaces.map(place => (
                     <div key={place.id} className="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4">
                         {place.typeCard === 1 ? (
                             <CardWithButton
@@ -61,4 +87,4 @@ const CardDetailsNearvy = () => {
     );
 }
 
-export default CardDetailsNearvy;
+export default CardDetailsPlaces;

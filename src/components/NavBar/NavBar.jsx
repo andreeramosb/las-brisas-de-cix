@@ -26,8 +26,8 @@ const NavLinks = ({ scrolled, isOpen, closeMenu }) => {
         <span className={`${scrolled ? '' : 'brand-noscroll'}`}>Las Brisas de Cix</span>
       </div>
       <li><Link className={linkClass} to="/" onClick={handleLinkClick}>Inicio</Link></li>
-      <li><Link className={linkClass} to="/lugares-cercanos" onClick={handleLinkClick}>Cercanos</Link></li>
-      <li><Link className={linkClass} to="/atractivos-turisticos" onClick={handleLinkClick}>Atractivos</Link></li>
+      <li><Link className={linkClass} to="/lugares-cercanos" onClick={handleLinkClick}>Alrededores</Link></li>
+      <li><Link className={linkClass} to="/atractivos-turisticos" onClick={handleLinkClick}>Para visitar</Link></li>
       <li><Link className={linkClass} to="/contactos" onClick={handleLinkClick}>Contactos</Link></li>
     </ul>
   );
