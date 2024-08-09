@@ -162,7 +162,7 @@
             "district": "Chiclayo",
             "province": "Chiclayo",
             "direction": "Av. Prol. Bolognesi",
-            "partOfDay": 1,
+            "partOfDay": 3,
             "carOrWalk": 1,
             "time": "1 min",
             "type":"salud"
