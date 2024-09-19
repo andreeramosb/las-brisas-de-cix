@@ -42,7 +42,7 @@ const Card = ({ title, description, location, image, district, province, directi
                 <h5 className="card-title" style={{ marginTop: "0.5rem"}}>{title}</h5>
                 <p className="card-text">{shortenDescription(description, 120)}</p>  
                 <div className='footer-card-without-btn'>
-                    <a href={location} className="col-8">
+                    <a href={location} className="col-8" target="_blank">
                         <GeoAltFill className='icon-place' /> {district}
                     </a>
                     <div className="col-4 carOrWalk-card" style={{ display: "flex", justifyContent: "flex-end", }}>
