@@ -9,9 +9,9 @@ const LocationSection = () => {
                 <h2>Ubicación del departamento</h2>
                 <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
                     <p>Av. Prolongación Bolognesi Mz. B lote 10</p> 
-                    <a href='https://maps.app.goo.gl/LWdZSQcUSda3bxyR8' style={{background:"#FEA501", paddingLeft:"5px", padding:"10px", borderRadius:"8px"}}>
+                    <a href='https://maps.app.goo.gl/PkTryQ8k7Z1hP2vEA' style={{background:"#FEA501", paddingLeft:"5px", padding:"10px", borderRadius:"8px"}}>
                         <GeoFill style={{fontSize:"30px"}}/> 
-                        <span>maps</span> 
+                        <span>mapa</span> 
                     </a>
                 </div>
             </div>
