@@ -16,6 +16,20 @@
         },
         {
             "id": 102,
+            "title": "Familia Gourmet",
+            "description": "Restaurante recién inaugurado con una amplia variedad de platos para todos los gustos.",
+            "location": "https://maps.app.goo.gl/4Puco6WeqScbCvbE6",
+            "image": "https://i.ibb.co/3zWb2ZP/Captura-de-pantalla-2024-11-07-222033.png", 
+            "district": "Chiclayo",
+            "province": "Chiclayo",
+            "direction": "Av. Prol. Bolognesi",
+            "partOfDay": 3,
+            "carOrWalk": 1,
+            "time": "3 min",
+            "type":"comida"
+        },
+        {
+            "id": 103,
             "title": "Cevichería Aji Limo",
             "description": "El ceviche de Aji Limo, premiado como uno de los mejores ceviche de Chiclayo.",
             "location": "https://maps.app.goo.gl/BWHXfohLwYapPtx16",
@@ -29,7 +43,7 @@
             "type":"comida"
         },
         {
-            "id": 103,
+            "id": 104,
             "title": "Cevichería David",
             "description": "Se forma extensa cola para deleitarse con el ceviche, ubicado en la avenida Prolongación Bolognesi.",
             "location": "https://maps.app.goo.gl/7FyjK6wzRXnQpUMJA?g_st=ic",
@@ -43,7 +57,7 @@
             "type":"comida"
         },
         {
-            "id": 104,
+            "id": 105,
             "title": "Mercado Sol de Oro - Las Brisas",
             "description": "Este mercado se ubica a pocos minutos del alojamiento, dónde encontrarás de todo.",
             "location": "https://maps.app.goo.gl/R62T8A6gyzT4KZ949?g_st=ic",
@@ -57,7 +71,7 @@
             "type":"mercado"
         },
         {
-            "id": 105,
+            "id": 106,
             "title": "Rest. BRISAMAR'S mar y tierra",
             "description": "Variedad de platos: almuerzos, pescados, mariscos, parrillas, anticuchos  mucho más para disfrutar.",
             "location": "https://maps.app.goo.gl/821ePbYoQDK9X47VA?g_st=ic",
@@ -65,12 +79,12 @@
             "district": "Chiclayo",
             "province": "Chiclayo",
             "direction": "Av. Prol. Bolognesi",
-            "carOrWalk": 3,
+            "carOrWalk": 1,
             "time": "1 min",
             "type":"comida"
         },
         {
-            "id": 106,
+            "id": 107,
             "title": "Parrillas Mr. Wences",
             "description": "Local nuevo donde encontrarás parrillas, etc. A una puerta de BRISAMAR'S mar y tierra.",
             "location": "https://maps.app.goo.gl/En93CLUqRpHG5xwV8",
@@ -84,7 +98,7 @@
             "type":"comida"
         },
         {
-            "id": 107,
+            "id": 108,
             "title": "Botica Las Brisas",
             "description": "Encontrarás todo tipo de medicamentos, ubicado en el centro de las Brisas",
             "location": "https://maps.app.goo.gl/okRPHW6abHEdEunbA?g_st=ic",
@@ -98,7 +112,7 @@
             "type":"salud"
         },
         {
-            "id": 108,
+            "id": 109,
             "title": "Comida al paso",
             "description": "Econtrarás comidas como sanguches de lechón/pavo, platos para cenar, etc, 7pm - 3am. Referencia: Paradero de motos.",
             "location": "https://maps.app.goo.gl/MCBTJtxgodSTY4Nt5",
@@ -112,7 +126,7 @@
             "type":"comida"
         },
         {
-            "id": 109,
+            "id": 110,
             "title": "El Pelao - Cevichería",
             "description": "El Pelao, ubicado en la avenida Prolongación Bolognesi. Destacable ceviche al paso, para disfrutar.",
             "location": "https://maps.app.goo.gl/3etprcLmCZSmHKkz8?g_st=ic",
@@ -126,7 +140,7 @@
             "type":"comida"
         },
         {
-            "id": 110,
+            "id": 111,
             "title": "Cevichería Zumito",
             "description": "Ubicado cerca al paradero de colectivos de Las Brisas. Destacable ceviche al paso, para disfrutar.",
             "location": "https://maps.app.goo.gl/jef651hL2R3xYY3m7?g_st=ic",
@@ -140,7 +154,7 @@
             "type":"comida"
         },
         {
-            "id": 111,
+            "id": 112,
             "title": "Supermercado Metro",
             "description": "Supermercado ubicado en la esquina de las avenidas Grau y Las Américas, donde encontrarás de todo.",
             "location": "https://maps.app.goo.gl/5FxV4oiLJavcgG1FA?g_st=ic",
@@ -154,7 +168,7 @@
             "type":"comercial"
         },
         {
-            "id": 112,
+            "id": 113,
             "title": "Farmacia",
             "description": "En esta cuadra encontrarás una farmacia.",
             "location": "https://maps.app.goo.gl/9dhqwZnAy9af2H8K7?g_st=ic",
@@ -168,7 +182,7 @@
             "type":"salud"
         },
         {
-            "id": 113,
+            "id": 114,
             "title": "Panadería",
             "description": "En esta cuadra encontrará una panadería que también ofrece una variedad de abarrotes.",
             "location": "https://maps.app.goo.gl/9dhqwZnAy9af2H8K7?g_st=ic",
@@ -182,7 +196,7 @@
             "type":"comida"
         },
         {
-            "id": 114,
+            "id": 115,
             "title": "Otros Comercios",
             "description": "En toda la cuadra indicado en el mapa, cerca al departamento ubicarás venta de hamburguesas, bodegas, ferretrías, etc.",
             "location": "https://maps.app.goo.gl/9dhqwZnAy9af2H8K7?g_st=ic",
@@ -790,7 +804,7 @@
         {
             "id": 237,
             "title": "Restaurante Marakos Grill",
-            "description": "Ubicado en el distrito de Pimente - Chiclayo",
+            "description": "Ubicado en el distrito de Pimentel - Chiclayo",
             "location": "https://maps.app.goo.gl/dR2F8NpMNJr6C1sQ7?g_st=ic",
             "image": "https://fastly.4sqi.net/img/general/600x600/90793827_fiXM6_I3X9DuRvGFRKgBNN0yvKikcQ_IzuZp0InTRY0.jpg",
             "video": "",
